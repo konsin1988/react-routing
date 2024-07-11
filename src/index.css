@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
+/******************* Variables ******************/
+
+:root {
+  --text-color: rgb(147, 49, 49);
+  --bg-header-footer: rgb(179, 166, 166);
+}

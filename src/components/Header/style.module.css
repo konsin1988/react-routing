@@ -1,0 +1,38 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: var(--bg-header-footer);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2% 4%;
+}
+.logo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+.nav {
+    margin-right: 13%;
+
+}
+
+.a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 10%;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.a:hover {
+    border-bottom: 1px solid var(--text-color);
+    transition: all .1s;
+}
