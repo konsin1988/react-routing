@@ -1,0 +1,24 @@
+.li {
+    text-decoration: none;
+    color: rgb(54, 49, 49);
+    list-style: none;
+}
+.li:hover {
+    opacity: .5;
+}
+.ul {
+    margin-right: 40px;
+    text-align: left;
+    padding: 10px;
+}
+.newPost {
+    position: fixed;
+    bottom: 90px;
+    right: 10%;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.newPost:hover {
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.257);
+}

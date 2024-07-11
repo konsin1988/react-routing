@@ -25,14 +25,11 @@
 
 }
 
-.a {
-    text-decoration: none;
-    color: var(--text-color);
-    padding: 10%;
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-.a:hover {
-    border-bottom: 1px solid var(--text-color);
-    transition: all .1s;
+.logoutButton {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.442);
+    position: absolute;
+    top: 35%;
+    right: 2%;
 }

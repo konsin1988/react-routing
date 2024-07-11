@@ -19,6 +19,8 @@ code {
 /******************* Variables ******************/
 
 :root {
-  --text-color: rgb(147, 49, 49);
+  --text-color: rgb(179, 68, 68);
   --bg-header-footer: rgb(179, 166, 166);
+  --active-navLink: rgb(211, 55, 55);
+  --text-hover: rgb(84, 24, 24);
 }
